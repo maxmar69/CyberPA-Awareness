@@ -43,7 +43,13 @@ apt-get dist-upgrade
 reboot
 ```
 
-### Integrazione con il dominio
+### Installazione dei tool accessori
+```bash
+sudo -s
+apt-get install ssh
+```
+
+### Integrazione con il dominio (opzionale)
 
 Copiare nella directory `/tmp` della macchina il file `AdAuthSetup.sh`, aprire il terminale e dare i seguenti comandi:
 ```bash
@@ -58,25 +64,65 @@ sudo -s
 # Ad esempio il comando:
 bash /tmp/AdAuthSetup.sh elearning massimo papernet.provincia.mc.it ced ced
 # verrà chiesto di inserire la password dell'utente di ammistrazione indicato {domain admin account} ed al termine la macchina linux sarà integrata al dominio microsoft e sarà possibile accedervi con le credenziali di dominio.
-```
 
-Integrazione al dominio:
-```bash 
-sudo -s
-cd /tmp
-scp massimo@brigitta:/data/unsafe/mycloud/pCloud/Offline/myarchivio/Progetti/informatica/_SISTEMA/Linux/autenticazione_su_AD/AdAuthSetup.sh .
-bash AdAuthSetup.sh elearning massimo papernet.provincia.mc.it ced ced
+# Riavviamo la macchina per verificare che tutto funzioni correttamente
 reboot
 ```
 
-@brigitta
-```bash
-ssh -l massimo@papernet elearning
-```
+### Attivazione piattaforma moodle
 
----------------------------------
+## [INSTALL] Installazione della piattaforma moodle  {#INSTALL}
+
+Installeremo moodle come progetto docker
 
 ### Attivazione piattaforma moodle
+
+Installazione di docker come mostrato su `......./Progetti/informatica/_SISTEMA/docker/howto/INSTALL.md`
+
+#### Creazione del progetto moodle 
+
+Leggere quanto si trova su `....../Progetti/informatica/_SISTEMA/docker/progetti-compose/moodle/`
+
+Scaricare il progetto docker compose e partire da zero:
+```
+curl -sSL https://raw.githubusercontent.com/bitnami/containers/main/bitnami/moodle/docker-compose.yml > docker-compose.yml
+```
+
+In alternativa seguire la strada già fatta:
+
+Predisporre l'ambiente
+```bash 
+sudo -s
+mkdir -p /DATA/MainDataset/Docker/
+cd /DATA/MainDataset/Docker/
+
+git clone --depth 1 --recurse-submodules --shallow-submodules massimo@brigitta:/data/unsafe/mycloud/pCloud/Offline/myarchivio/Progetti/informatica/_SISTEMA/docker/compose/progetti-compose/moodle/
+
+git clone --depth 1 --recurse-submodules --shallow-submodules massimo@brigitta:/data/unsafe/mycloud/pCloud/Offline/myarchivio/Progetti/informatica/_SISTEMA/docker/compose/tools/
+
+# Creazione dei link simbolici ai tool all'interno della dir bows
+cd moodle ; ln -fs ../tools/*.sh .
+```
+
+Avvio di moodle
+```bash
+sudo -s
+cd /DATA/MainDataset/Docker/moodle
+docker compose up -d
+```
+
+Test del servizio
+
+Leggere quanto si trova su `....../Progetti/informatica/_SISTEMA/moodle/`
+
+Andare su http://elearning.papernet.provincia.mc.it:8080/
+
+
+
+
+
+
+
 
 Installazione di docker come mostrato su `......./Progetti/informatica/_SISTEMA/docker/howto/INSTALL.md`
 
