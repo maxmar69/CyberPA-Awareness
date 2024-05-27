@@ -1,0 +1,515 @@
+$CATEGORY: $course$/top/Default per Sicurezza informatica2
+
+// [id:MAXMAR69-00001][tag:email] [tag:1_PHISHING] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level1]
+Ricevo una email da un mittente che conosco ma che non aspettavo {
+~Apro subito la mail, tanto sono sicuro che l'abbia scritta lui
+~In allegato c'e' un programma. Lo eseguo per vedere cosa mi ha mandato.
+=Provo a contattare il conoscente per capire se verificare se è realmente lui l'autore del messaggio.
+}
+
+// [id:MAXMAR69-00002] [tag:email] [tag:1_PHISHING] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level2]
+Ricevo una email da un mittente che conosco ma con un oggetto che non mi sembra coerente. Come mi devo comportare ? {
+~Apro la mail, poi apro l'allegato, se presente, per capire meglio di cosa si tratta.
+~La mail mi sembra sospetta, la inoltro ad un amico che è più esperto di me e mi saprà aiutare.
+=Esamino meglio l'indirizzo email del mittente, l'oggetto, la data l'intestazione del messaggio e vedo se sono tra loro coerenti. 
+}
+
+// [id:MAXMAR69-00003] [tag:1_SMARTWORKING] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level1]
+Oggi sono in ufficio ma so già che domani lavorerò da casa in modalità agile (smart working). Cosa posso fare preventivamente ? {
+~Ho fretta e non riesco a fare nulla. 
+~Stampo i files che mi serviranno a casa così sarò più veloce e produttivo nel mio lavoro. 
+=Vado sul portale dell'Ente, mi aggiorno sulle ultime novità per i collegamenti in modalità agile, se necessario, scarico le guide aggiornate.
+}
+
+// [id:MAXMAR69-00004] [tag:1_SMARTWORKING] [tag:infosharing] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level2]
+Oggi sono in ufficio ma so già che domani lavorerò da casa in modalità agile. Cosa posso fare preventivamente ? {
+~Stampo i files che mi serviranno a casa così sarò più veloce e produttivo nel mio lavoro. 
+=Mi assicuro di avere a disposizione i files di cui domani avrò bisogno usando gli strumenti ed i servizi messi a disposizione dal mio Ente. 
+~Metto sul mio spazio in cloud personale tutto quello di cui avrò bisogno, c'e' spazio, è veloce e sicuro.
+}
+
+// [id:MAXMAR69-00005] [tag:1_AUTHENTICATION] [tag:password] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level2]
+Devo scegliere una password. Cosa faccio ? {
+~Ne ho una mia che uso per tutto che ricordo a mente, è lunga, ha lettere, numeri e caratteri speciali e quindi viene sempre accettata.
+~Uso la stessa password che uso in tutti gli altri servizi. In questo modo la posso scegliere sufficientemente complessa ma ricordarla.
+=Scelgo una password sufficientemente robusta diversa da quelle che uso negli altri servizi.
+}
+
+// [id:MAXMAR69-00006] [tag:1_HUMANFACTOR] [tag:browserinternet] [tag:cifratura] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level1]
+Vado sul sito https\://sitodiesempio.it e compare un lucchetto chiuso. Cosa significa ? {
+=Che posso stare tranquillo, il sito è certificato ed i miei dati non vengono scambiati in chiaro.
+~Il mio utente non ha le credenziali per accedere al sito, devo uscire subito. 
+~L'accesso al sito è stato bloccato dall'antivirus, devo uscire subito. 
+}
+
+// [id:MAXMAR69-00007] [tag:email] [tag:1_PHISHING] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level1]
+Ricevo una mail con in allegato il file Mycalendar.reg . Cosa devo fare ? {
+~Aprire il file. Si tratta del registro degli appuntamenti del calendario di windows.
+=Allertarmi e non aprire il file perché rappresenta una minaccia alla sicurezza.
+~Inoltrare il file ad un mio collega, lui è capisce tutto di computer e sicuramente mi aiuterà.
+}
+
+// [id:MAXMAR69-00008] [tag:email] [tag:1_PHISHING] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level1]
+Ricevo una mail con in allegato il file contratto.dll . Cosa devo fare ? {
+~Aprire il file si tratta del file firmato che stavo aspettando.
+~Inoltrare il file ad un mio collega, lui è capisce tutto di computer e sicuramente mi aiuterà a capire di cosa si tratta.
+=Allertarmi e non aprire il file perché rappresenta una minaccia alla sicurezza.
+}
+
+// [id:MAXMAR69-00009] [tag:1_ENDPOINT] [tag:usermanagement] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level2]
+Un mio familiare deve utilizzare il notebook che io uso abitualmente per il lavoro agile. Cosa faccio ? {
+~Gli proibisco l'uso del notebook perche' windows non gestisce piu' di un utente per dispositivo.
+=Mi accerto che non utilizzi il mio stesso profilo utente e che non installi software che possa essere una minaccia alla sicurezza.
+~Gli dico di installare prima l'antivirus e di verificare tutti i programmi prima di installarli.
+}
+
+// [id:MAXMAR69-00010] [tag:1_ENDPOINT] [tag:windows] [tag:soupdates] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level1]
+Come posso controllare se windows è aggiornato ? {
+~Premo CTRL+ALT+CANC e vedo la data di aggiornamento.
+=Apro la schermata "Windows Update" e clicco su "Verifica disponibilità aggiornamenti"
+~Vado con il mio browser sul sito aggiornamenti.windows.latuasicurezza.it
+}
+
+// [id:MAXMAR69-00011] [tag:1_ENDPOINT] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level1]
+Sono in ufficio e mi manca un programma gratuito che uso a casa. Cosa posso fare ? {
+~Provo ad installarlo, il sistema di sicurezza di windows e l'antivirus eventualmente mi proteggeranno.
+=Verifico se ne ho la reale necessità, se sono già disponibili programmi e/o servizi alternativi, in ultima analisi chiedo il supporto del servizio informatico.
+~Per fortuna posso fare tutto da solo\: sono in possesso di una versione portable che non necessita di essere installata. 
+}
+
+// [id:MAXMAR69-00012] [tag:1_HUMANFACTOR] [tag:network] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level2] 
+Un consulente viene nel mio ufficio, ha il suo notebook ed ha bisogno di accedere ad un sito internet. Cosa è preferibile fare ? {
+=Gli dico che può usare il mio computer per aprire il sito internet.
+~Gli dico che può usare il computer del mio collega con il profilo ancora aperto perchè in questo modo potremo lavorare contemporaneamente.
+~C'e' una presa di rete libera. Gli dico di collegarci il notebook.
+}
+
+// [id:MAXMAR69-00013] [tag:1_AUTHENTICATION] [tag:password] [tag:pin] [tag:MFA] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level1]
+Quali tra i seguenti sistemi di autenticazione è più sicuro ? {
+~Utente e password.
+~PIN (Personal Identification Number)
+=Autenticazione a fattori multipli
+}
+
+// [id:MAXMAR69-00014] [tag:1_ENDPOINT] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level1]
+Sono in ufficio al computer e devo uscire per un lavoro. Cosa è opportuno fare ? {
+~Nulla. Il sistema si blocca autonomamente dopo qualche minuto.
+~Bloccare il proprio profilo e lasciare il pc acceso così quando torno lo trovo già pronto.
+=Spegnere il computer prima di lasciare la stanza, potrei non rientrare.
+} 
+
+
+// [id:MAXMAR69-00015] [tag:1_AUTHENTICATION] [tag:mfa] [tag:1_PHISHING] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level1]
+Cos'è l'autenticazione a due fattori e come può essere d'aiuto contro il phishing ?  {
+~Un processo che richiede una doppia coppia di credenziali per accedere a un account. 
+=Un sistema di autenticazione che utilizza due metodi di autenticazione individuali differenti.
+~Un'opzione poco comune disponibile solo per aziende di grandi dimensioni
+}
+
+// [id:MAXMAR69-00016] [tag:1_PHISHING] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level1]
+Chi può essere bersaglio di un attacco di phishing ? {
+~le grandi aziende con molti dipendenti
+=Chiunque abbia una presenza online
+~Esclusivamente le persone fragili e gli anziani
+}
+
+// [id:MAXMAR69-00017] [tag:1_ENDPOINT] [tag:soupdates] [tag:antivirus] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level1]
+Perché è importante mantenere aggiornati i software e gli antivirus? {
+~Per garantire che il computer funzioni più velocemente
+=Per proteggere da vulnerabilità di sicurezza note
+~Per migliorare l'efficienza energetica del dispositivo
+}
+
+// [id:MAXMAR69-00018] [tag:1_PHISHING] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level1]
+Cosa dovresti fare se sospetti di essere stato vittima di phishing ? {
+~Ignorare la situazione e sperare che non sia successo nulla
+=Segnalare l'incidente al servizio informatico o al provider di posta elettronica
+~Scrivere al mittente sospetto per cercare di capire chi sia
+}
+
+// [id:MAXMAR69-00019] [tag:1_PHISHING] [tag:social] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level2]
+Cos'è il "Phishing tramite social engineering"? {
+~Un metodo per migliorare le abilità di comunicazione
+=Un attacco che sfrutta la fiducia o la curiosità degli utenti
+~Una moderna tecnica di ricerca sociologica
+}
+
+// [id:MAXMAR69-00020] [tag:1_PHISHING] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level1]
+Cosa può essere utile ad individuare un sito di web PHISHING ? {
+=URL simile a quelli legittimi
+~Presenza di crittografia avanzata
+~Pagine con testi grammaticamente corretti e privi di errori di ortografia
+}
+
+
+// [id:MAXMAR69-00021] [tag:1_PHISHING] [tag:social] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level2]
+Come possono le tecniche di social engineering contribuire al successo del phishing ? {
+=Manipolando le persone per fornire informazioni sensibili
+~Insegnando agli utenti a migliorare la propria sicurezza
+~Organizzando eventi social per affrontare tematiche di sicurezza informatica 
+}
+
+// [id:MAXMAR69-00022] [tag:1_PHISHING] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level1]
+Cos'è un "link di phishing" ? {
+=Un collegamento che indirizza a un sito Web malevolo
+~Un link per scaricare un antivirus
+~Un link per abbonarsi a una newsletter
+}
+
+
+// [id:MAXMAR69-00023] [tag:1_PHISHING] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level2]
+Cosa significa "Phishing 0-day"? {
+~Un attacco di phishing che si verifica esclusivamente il primo giorno del mese.
+=Un attacco che sfrutta una vulnerabilità appena scoperta per la quale non esiste ancora una soluzione.
+~Un tipo di phishing che coinvolge esclusivamente aziende nuove e/o startup.
+}
+
+// [id:MAXMAR69-00024] [tag:1_AUTHENTICATION] [tag:riconoscimentobio] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level1]
+Quali sono alcuni esempi di caratteristiche biometriche utilizzate nell'autenticazione? {
+=Impronte digitali, scansione retinica, riconoscimento facciale.
+~Password, PIN, codici di accesso.
+~Ricomoscimento vocale, fotografie, firme digitali .
+}
+
+
+// [id:MAXMAR69-00025] [tag:1_HUMANFACTOR] [tag:cifratura] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level2] 
+Cosa è opportuno fare per essere sicuri che i dati presenti nella pennetta usb non siano accessibili ad altri in caso venga persa o rubata ? {
+=Usare un sistema di cifratura 
+~Utilizzare la password del programma di scrittura per proteggere i documenti all'interno
+~Mettere tutti i file in un archivio zip protetto con la stessa password del pc
+}
+
+
+// [id:MAXMAR69-00026] [tag:1_MALWARE] [tag:ransomware] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level2]
+Cosa è un ransomware ? {
+~Un tipo di software antivirus che usa la crittografia per prevenire blocca gli attacchi malevoli.
+=Un tipo di malware che impedisce l'accesso ai dati e/o al sistema e richiede un riscatto per ripristinarlo
+~Un tipo di software di backup che archivia su cloud molteplici versioni dello stesso file.
+}
+
+// [id:MAXMAR69-00027] [tag:1_MALWARE] [tag:ransomware] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level1]
+Come viene di solito distribuito il ransomware? {
+=Attraverso email contraffatte o link malevoli.
+~Tramite chiamate telefoniche ingannevoli
+~Attraverso l'installazione di programmi legittimi.
+}
+
+// [id:MAXMAR69-00028] [tag:1_MALWARE] [tag:ransomware] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level1]
+Qual è l'obiettivo principale del ransomware? {
+~Rubare informazioni personali.
+=Bloccare l'accesso ai dati o ai sistemi per estorcere un riscatto.
+~Esaurire deliberatamente le risorse di un sistema informatico per ostacolare la fornitura dei servizi.
+}
+
+
+// [id:MAXMAR69-00029] [tag:1_MALWARE] [tag:ransomware] [tag:soupdates] [tag:antivirus] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level2]
+Quale delle seguenti è una buona prassi da attuare per difendersi dai ransomware ? {
+=mantenere i sistemi operativi e i software antivirus/antimalware aggiornati
+~Aprire solo siti con protocollo https 
+~Memorizzare i documenti protetti da password 
+}
+
+// [id:MAXMAR69-00030] [tag:1_HUMANFACTOR] [tag:backup] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level1]
+A cosa serve fare un backup regolare ? {
+~Ad archiviare le informazioni per superare l'obsolescenza dei dispositivi
+=Ad avere una copia dei dati da ripristinare al bisogno
+~Ad avere una copia dei dati da condividere con i colleghi
+}
+
+
+// [id:MAXMAR69-00031] [tag:1_SMARTWORKING] [tag:vpn] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level1]
+Qual è uno dei principali vantaggi di utilizzare una connessione VPN per l'accesso remoto? {
+~Maggiori prestazioni del computer in quanto non c'e' necessita di usare un antivirus 
+=I dati trasmessi sono crittografati
+~Connessioni più veloci dovute alla compressione dei dati 
+}
+
+
+// [id:MAXMAR69-00032] [tag:1_SMARTWORKING] [tag:vpn] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level1]
+Cosa potrebbe aumentare il rischio di violazioni della sicurezza durante l'apertura della casella email dell'azienda/Ente ? {
+=Connettersi ad internet utilizzando reti WiFi pubbliche non protette
+~Connettersi ad internet utilizzando la rete dati del cellulare in modalità hotspot ed una connessione VPN
+~Connettersi ad internet utilizzando la rete wifi della mia abitazione ed una connessione VPN
+}
+
+
+// [id:MAXMAR69-00033] [tag:1_SMARTWORKING] [tag:vpn] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level1]
+Quale comportamento può rappresentare un rischio quando si usa una connessione vpn ? {
+=Abbassare le difese nell'accesso ad internet confidando nella sicurezza della connessione
+~Ricercare contenuti su internet tramite un motore di ricerca 
+~Accedere al sito intranet aziendale
+}
+
+
+// [id:MAXMAR69-00034] [tag:1_SMARTWORKING] [tag:vpn] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level2]
+Cosa può succedere se utilizzando la connessione vpn si accede a dei contenuti personali sul web ? {
+=La connessione potrebbe essere bloccatta dall'amministratore di rete 
+~L'amministratore della rete memorizza il traffico per questioni di sicurezza  
+~L'amministratore della rete analizza le credenziali d'accesso per verificarne la robustezza
+}
+
+// [id:MAXMAR69-00035] [tag:1_SMARTWORKING] [tag:vpn] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level2]
+Cosa potrebbe rappresentare un rischio per la sicurezza informatica quando si utilizza una connessione VPN ? {
+=Non aver aggiornato il sistema operativo e/o il software di protezione da malware
+~Utilizzare una rete internet lenta
+~Accedere alla connessione vpn utilizzando la rete dati del proprio smartphone in modalità hotspot
+}
+
+
+// [id:MAXMAR69-00036] [tag:1_SMARTWORKING] [tag:vpn] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level2]
+Perché è importante utilizzare una VPN quando si accede ad internet utilizzando reti Wi-Fi pubbliche ? {
+~Per condividere più facilmente i file con altri utenti
+=Per proteggere i dati personali dalla cattura da parte di terzi
+~Per aumentare la velocità di connessione alla rete
+}
+
+
+// [id:MAXMAR69-00037] [tag:1_HUMANFACTOR] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level1]
+Qual è un metodo comune per mitigare le minacce legate al fattore umano nella sicurezza informatica? {
+=Aumentare le competenze degli utenti sulle best practice di sicurezza
+~Aumentare il numero di firewall sulla rete
+~Limitare l'accesso alla rete solo agli amministratori di sistema
+}
+
+// [id:MAXMAR69-00038] [tag:1_HUMANFACTOR] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level1]
+Quale comportamento rappresenta una minaccia per la sicurezza informatica e può essere causato dal fattore umano? {
+=Fare clic su link sospetti nelle email di phishing
+~Aprire il sito home banking del proprio istituto di credito
+~Vedere video su youtube di contenuto sospetto
+}    
+
+// [id:MAXMAR69-00039] [tag:1_HUMANFACTOR] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level2]
+Quale comportamento rappresenta una minaccia per la sicurezza informatica dell'azienda ? {
+=Diffondere sui social informazioni relative alla propria attività lavorativa
+~Postare sui social foto dei propri viaggi passati
+~Comunicare agli utenti l'indirizzo email ufficale dell'azienda
+}
+
+
+// [id:MAXMAR69-00040] [tag:vpn] [tag:1_PHISHING] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level2]
+Il phishing quando si utilizza una connessione VPN con la propria azienda/Ente è:  {
+~Particolarmente pericoloso a causa della maggiore velocità di navigazione su internet
+=Più pericoloso perchè può essere una via per bypassare più facilmente le misure di sicurezza dell'azienda/Ente
+~Pericoloso come nelle normali connessioni senza VPN
+}
+
+
+// [id:MAXMAR69-00041] [tag:vpn] [tag:1_HUMANFACTOR] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level1]
+Quale comportamento rappresenta un pericolo per la sicurezza informatica ? {
+=Condividere liberamente le credenziali VPN con i colleghi
+~Sfogliare la rete informatica dell'Ente
+~Inviare le scansioni effettuate sulla fotocopiatrice al mio indirizzo email
+}
+
+
+
+
+//  ------------------------------------ DA QUI IN POI INIZIANO LE NUOVE DOMANDE
+
+
+// [id:MAXMAR69-000042] [tag:1_CRIPTOGRAFIA] [tag:hash] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level2]
+L'impronta dei dati è una serie di caratteri, calcolati da un insieme di dati di partenza con un algoritmo di hashing, che ha la seguente proprietà\: {
+=Cambia in caso di modifica anche minima dei dati di partenza
+~Da essa è possibile ricavare mediante uno speciale algoritmo i dati di partenza 
+~E' un sistema di criptaggio a chiave asimmetrica 
+}
+
+
+// [id:MAXMAR69-00043] [tag:1_CRIPTOGRAFIA] [tag:hash] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level2]
+Quali di queste funzionalità utilizza necessariamente l'impronta dei dati (hash) ? {
+=La firma digitale
+~Il salvataggio di un file
+~La visualizzazione delle proprietà di un file
+}
+
+// [id:MAXMAR69-00044] [tag:1_CRIPTOGRAFIA] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level1] 
+Quale delle seguenti affermazioni è corretta ? {
+~La crittografia simmetrica usa due diverse chiavi\: una scritta normalmente, l'altra a rovescio
+~La crittografia simmetrica è ormai sorpassata e non più utilizzata
+=La crittografia asimmetrica usa due chiavi\: una privata ed una pubblica
+}
+
+// [id:MAXMAR69-00045] [tag:1_CRIPTOGRAFIA] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level1] 
+Quale delle seguenti affermazioni è corretta ? {
+~La crittografia asimmetrica usa due chiavi\: una privata ed una pubblica
+~Nella crittografia simmetrica la chiave utilizzata per cifrare un testo e quella per decifrare un testo coincidono
+=Sono tutte corrette
+}
+
+// [id:MAXMAR69-00046] [tag:1_CRIPTOGRAFIA] [tag:firmadigitale] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level1] 
+Nella firma digitale chi attesta l'identità del firmatario ? {
+=La certification authority che ha rilasciato la firma digitale
+~L'azienda e/o l'Ente che ha acquistato la firma digitale per il dipendente
+~Non è necessario, nel certificato di firma c'e' la scansione del documento di identità del firmatario
+}
+
+// [id:MAXMAR69-00047] [tag:1_CRIPTOGRAFIA] [tag:firmadigitale] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level2] 
+Cosa è una catena di certificazione PKI ? {
+~Una catena in cui da un capo c'e' il firmatario, dall'altro la certification authority che gli ha rilasciato la firma digitale
+=Una catena gerarchica nella quale c'e' la certification authority che ha rilasciato la firma digitale ed in cima una root certification authority
+~Una catena alla quale appartengono tutti coloro che hanno una firma digitale
+}
+
+// [id:MAXMAR69-00048] [tag:1_CRIPTOGRAFIA] [tag:firmadigitale] [tag:certificato_firma] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level2] 
+Quali informazioni si possono trovare nel certificato di firma ? {
+=I dati identificativi del firmatario, la chiave pubblica del firmatario, la data di scadenza del certificato
+~I dati identificativi del firmatario, la chiave privata del firmatario, la data di scadenza del certificato
+~I dati identificativi della certification authority, la chiave privata del firmatario, la data di scadenza del certificato
+}
+
+
+// [id:MAXMAR69-00049] [tag:1_CRIPTOGRAFIA] [tag:firmadigitale] [tag:CADES] [tag:PADES] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level1] 
+Devo firmare digitalmente un file di testo in formato odt . Quale formato devo utilizzare ? {
+=Il CADES
+~Il PADES
+~Il CADES o il PADES, vanno bene entrambi
+}
+
+// [id:MAXMAR69-00050] [tag:1_CRIPTOGRAFIA] [tag:firmadigitale] [tag:CADES] [tag:PADES] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level2] 
+Devo firmare digitalmente una parte di un file pdf. Quale formato devo utilizzare ? {
+~Il CADES
+=Il PADES
+~Il CADES o il PADES, vanno bene entrambi
+}
+
+
+// [id:MAXMAR69-00051] [tag:1_CRIPTOGRAFIA] [tag:firmadigitale] [tag:CADES]  [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level2] 
+Devo verificare 3 firme in un file pdf in formato PADES. A cosa devo prestare attenzione ? {
+~Che il nome del file sia nel formato nomefile.pdf.p7m
+=Che le firme siano state apposte tutte nella stessa versione del documento
+~Che i timbri di firma siano visibili
+}
+
+
+// [id:MAXMAR69-00052] [tag:1_ENDPOINT] [tag:sistema_operativo] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level1]
+Cosa è un sistema operativo ? {
+=Un software che gestisce le risorse di un computer e fornisce un'interfaccia tra l'utente, le applicazioni e l'hardware del sistema.
+~Un software che permette di navigare ed effettuare ricerche su internet assicurando la sicurezza delle operazioni.
+~Un sistema in grado di compiere operazioni in maniere automatica.
+}
+
+// [id:MAXMAR69-00053] [tag:1_ENDPOINT] [tag:sistema_operativo] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level1]
+Quali dei seguenti è il nome di un sistema operativo ? {
+=Microsoft Windows
+~Google Chrome
+~Microsoft Office
+}
+
+// [id:MAXMAR69-00054] [tag:1_ENDPOINT] [tag:browserinternet] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level1]
+Quali dei seguenti è il nome di un browser internet ? {
+=Google Chrome
+~Microsoft Windows 
+~Microsoft Office
+}
+ 
+// [id:MAXMAR69-00055] [tag:1_ENDPOINT] [tag:browserinternet] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level2]
+Aprendo la finestra per la navigazione anonima di cosa si può essere certi ? {
+=Durante la navigazione non vengono lasciate tracce nel pc
+~Non è possibile in alcun modo risalire all'elenco delle pagine web visitate
+~Nessuna pagina mostrerà gli annunci pubblicitari in quanto i siti non potranno identificare l'utente
+}
+
+// [id:MAXMAR69-00056] [tag:1_ENDPOINT] [tag:browserinternet] [tag:https] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level2]
+Apro per la prima volta il sito https\://news.affaridelmondo.com e viene mostrata una segnalazione di sito non è attendibile. Cosa posso fare ? {
+=Controllare il certificato del sito web 
+~Aprire il sito con il protocollo http (http\://news.affaridelmondo.com ) che probabilmente non avrà nessun problema
+~Ignorare la segnalazione, può capitare che alcuni siti internet abbiano di questi problemi
+}
+
+// [id:MAXMAR69-00057] [tag:1_WORKFLOW] [tag:email] [tag:pec] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level2]
+Devo mandare un documento ad un soggetto privato che non ha la pec e, se richiesto, devo poter dimostrare di averlo scritto io e di averlo inviato nella giornata odierna. Come posso fare ? {
+~Mando una mail chiedendo la ricevuta di ritorno
+=Mando una pec inserendo all'interno il documento che ho firmato digitalmente
+~Non resta che stampare il documento, firmarlo e spedirlo con una raccomandata con ricevuta di ritorno
+}
+
+
+// [id:MAXMAR69-00058] [tag:1_WORKFLOW] [tag:email] [tag:pec] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level2]
+Quale delle seguenti informazioni non è certificata con l'invio di una pec ? {
+~La data e l'ora di invio
+=L'identità del soggetto che ha inviato la pec
+~L'integrità del messaggio
+}
+
+
+
+// [id:MAXMAR69-00059] [tag:1_AUTHENTICATION] [tag:password] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level2] 
+Come posso fare per ricordare facilmente le password mantenendo alti livelli di sucurezza ? {
+=Posso scegliere una password complessa antepondendo un testo specifico relativo al dominio di autenticazione e aggiungendo in coda caratteri e numeri speciali
+~Posso memorizzare le password nel browser internet senza utilizzare una master key 
+~Posso salvare le password nel mio cellulare personale
+}
+
+// [id:MAXMAR69-00060] [tag:1_AUTHENTICATION] [tag:Oauth] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level2] 
+Come si usa l'autenticazione Oauth ? {
+=Quando si effettua il login ad un sito si richiede di potersi autenticare usando un servizio esterno (es. google, amazon, facebook, ecc.) di autenticazione
+~Si entra nel sito che fornisce il servizio di autenticazione (es. google, amazon, facebook, ecc.) e poi si comincia a navigare nel sito d'interesse
+~Si inserisce l'Otp per effettuare l'autenticazione esterna
+}
+
+
+// [id:MAXMAR69-00061] [tag:1_AUTHENTICATION] [tag:spid] [tag:cie] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level3] 
+Quale tra le seguenti affermazioni inerenti Spid e Cie è vera ? {
+~La Cie nel prossimo futuro andrà a sostituire lo Spid
+=Spid e Cie sono conformi al regolamento europeo eIDAS
+~La Cie permette di firmare digitalmente un documento mentre lo Spid no
+}
+
+
+// [id:MAXMAR69-00062] [tag:1_HUMANFACTOR] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level1] 
+Quali tra le seguente risposte definisce la sicurezza informatica ? {
+=La sicurezza informatica coinvolge aspetti tecnici, organizzativi, giuridici e di natura umana
+~La sicurezza informatica riguarda principalmente il lavoro di tecnici specialistici del settore
+~La sicurezza informatica dipende esclusivamente da decisioni organizzative 
+}
+
+// [id:MAXMAR69-00063] [tag:1_AUTHENTICATION] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level2] 
+Cosa è un attacco a forza bruta (brute-force attack) ? {
+~Un tipo di attacco informatico che sfrutta una debolezza nel software
+=Un metodo per tentare di indovinare una password provando tutte le possibili combinazioni
+~Un processo per cifrare le password prima di archiviarle nel database
+}
+
+// [id:MAXMAR69-00064] [tag:1_AUTHENTICATION] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level1] 
+Cosa dovresti fare quando scegli una password? {
+=Utilizzare una combinazione di lettere, numeri e caratteri speciali
+~Utilizzare il nome del tuo animale domestico
+~Riutilizzare una password già usata in passato
+}
+
+// [id:MAXMAR69-00065] [tag:1_HUMANFACTOR] [tag:backup] [tag:ransomware] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level2] 
+Quali delle seguenti azioni preventive permette di ripristinare i dati in caso cyber attacco ? {
+=Eseguire un backup periodico su un supporto da conservare in modalità offline
+~Copiare i dati in un'altra cartella del pc
+~Sincronizzare in tempo reale i dati su una pennetta collegata al pc
+}
+
+// [id:MAXMAR69-00066] [tag:1_MALWARE] [tag:esfiltrazione] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level2] 
+Cosa si intende per esfiltrazione dei dati ? {
+~Il processo di protezione dei dati sensibili
+=Il trasferimento non autorizzato di dati da un sistema interno a uno esterno
+~La memorizzazione sicura dei dati sul cloud
+}
+
+// [id:MAXMAR69-00067] [tag:1_MALWARE]  [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level2] 
+Cosa si rischia utilizzando software datati e non più supportati dallo sviluppatore ? {
+~Cancellazione files associati al software
+=Maggiore esposizione ai malware dovuta a vulnerabilità di sicurezza non corrette 
+~Diminuzione della qualità del servizio di connessione
+}
+
+// [id:MAXMAR69-00068] [tag:1_PHISHING] [tag:social] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level2] 
+Sono in vacanza e scrivo un post pubblicamente visibile su un social. Cosa dovrei sicuramente evitare di fare ?  {
+~Inviare foto sulle bellezze del posto 
+=Ringraziare il mio collega per avermi sostituito a lavoro in questi giorni  
+~Scrivere consigli sui posti da visitare
+}
+
+
+// [id:MAXMAR69-00069] [tag:1_AUTHENTICATION] [tag:Oauth] [tag:TRG_PAPROV] [tag:LNG_ITA] [tag:level2] 
+Un sito mi chiede di autenticarmi utilizzando un account Google. Cosa è meglio fare ? {
+=Accettare, inserire le credenziali e possibilmente configurare l'autenticazione MFA su Google
+~Non accettare ed evitare di usare le credenziali di Google su altri siti
+~Non accettare e registrarsi sul sito utilizzando la solita password che ho scelto con attenzione, è lunga e con caratteri speciali
+}
+
