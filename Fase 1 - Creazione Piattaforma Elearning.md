@@ -70,38 +70,52 @@ reboot
 ```
 
 ### Attivazione piattaforma moodle
+Installeremo moodle come un progetto docker compose.
 
-## [INSTALL] Installazione della piattaforma moodle  {#INSTALL}
+#### Installazione docker compose
+```bash
+# Rimozione vecchie versioni (ad esmepio quelle installate dai repository di ubuntu)
+sudo apt-get remove docker docker-engine docker.io containerd runc docker-compose
 
-Installeremo moodle come progetto docker
+# Aggiorniamo la cache
+sudo apt-get update
 
-### Attivazione piattaforma moodle
+# Installiamo i tool necessari per l'installazione
+sudo apt-get install \
+    ca-certificates \
+    curl \
+    gnupg \
+    lsb-release
 
-Installazione di docker come mostrato su `......./Progetti/informatica/_SISTEMA/docker/howto/INSTALL.md`
+# Scarichiamo la chiave del repository da aggiungere
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+
+
+# Aggiungiamo il repository
+echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \
+  $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+
+# Aggiorniamo nuovamente la cache
+sudo apt-get update
+
+# Insalliamo i pacchetti di docker compose
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin 
+```
 
 #### Creazione del progetto moodle 
 
-Leggere quanto si trova su `....../Progetti/informatica/_SISTEMA/docker/progetti-compose/moodle/`
-
-Scaricare il progetto docker compose e partire da zero:
-```
-curl -sSL https://raw.githubusercontent.com/bitnami/containers/main/bitnami/moodle/docker-compose.yml > docker-compose.yml
-```
-
-In alternativa seguire la strada già fatta:
-
-Predisporre l'ambiente
-```bash 
+```bash
 sudo -s
-mkdir -p /DATA/MainDataset/Docker/
-cd /DATA/MainDataset/Docker/
+# Creiamo la directory dove andremo a configurare il progetto
+mkdir -p /opt/docker/moodle
+chmod 777 /opt/docker/moodle
 
-git clone --depth 1 --recurse-submodules --shallow-submodules massimo@brigitta:/data/unsafe/mycloud/pCloud/Offline/myarchivio/Progetti/informatica/_SISTEMA/docker/compose/progetti-compose/moodle/
+# Copiamo il file docker-compose.yml nella cartella appena creata
 
-git clone --depth 1 --recurse-submodules --shallow-submodules massimo@brigitta:/data/unsafe/mycloud/pCloud/Offline/myarchivio/Progetti/informatica/_SISTEMA/docker/compose/tools/
+# Avviamo il progetto docker
 
-# Creazione dei link simbolici ai tool all'interno della dir bows
-cd moodle ; ln -fs ../tools/*.sh .
+
 ```
 
 Avvio di moodle
