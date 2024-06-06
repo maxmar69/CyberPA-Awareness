@@ -1,5 +1,37 @@
 # CREAZIONE PIATTAFORMA ELEARNING
 
+
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+
+<!-- code_chunk_output -->
+
+- [CREAZIONE PIATTAFORMA ELEARNING](#creazione-piattaforma-elearning)
+  - [Premessa](#premessa)
+  - [Installazione](#installazione)
+    - [Predisposizione del sistema operativo](#predisposizione-del-sistema-operativo)
+    - [Configurazione di rete](#configurazione-di-rete)
+    - [Scaricamento del progetto CyberPA-Awareness](#scaricamento-del-progetto-cyberpa-awareness)
+    - [Aggiornamemento del sistema operativo](#aggiornamemento-del-sistema-operativo)
+    - [Installazione dei tool accessori](#installazione-dei-tool-accessori)
+    - [Integrazione con il dominio (opzionale)](#integrazione-con-il-dominio-opzionale)
+    - [Attivazione piattaforma moodle](#attivazione-piattaforma-moodle)
+      - [Installazione docker compose](#installazione-docker-compose)
+      - [Avvio del progetto moodle](#avvio-del-progetto-moodle)
+  - [Configurazione piattaforma moodle](#configurazione-piattaforma-moodle)
+    - [Primo accesso](#primo-accesso)
+    - [Integrazione LDAP (opzionale)](#integrazione-ldap-opzionale)
+      - [Configurazione nel domain controller (DC)](#configurazione-nel-domain-controller-dc)
+        - [Creazione utente moodle](#creazione-utente-moodle)
+        - [Ottimizzazione contenuti Active Directroy (opzionale)](#ottimizzazione-contenuti-active-directroy-opzionale)
+      - [Configurazione nella piattaforma moodle](#configurazione-nella-piattaforma-moodle)
+    - [Configurazione utenti di amministrazione](#configurazione-utenti-di-amministrazione)
+    - [Impostazione dell'Italiano come lingua di default](#impostazione-dellitaliano-come-lingua-di-default)
+    - [Impostazione della schermata principale](#impostazione-della-schermata-principale)
+    - [Togliere dalla schermata di login il link "Hai dimenticato la password?"](#togliere-dalla-schermata-di-login-il-link-hai-dimenticato-la-password)
+
+<!-- /code_chunk_output -->
+
+
 ## Premessa
 
 Seguendo queste semplici istruzioni è possibile installare e configurare da zero una piafforma di elearning.
@@ -133,66 +165,13 @@ cd /opt/CyberPA-Awareness
 # Avviamo il progetto docker
 docker compose up -d
 ```
-
-
-
-
-
-Test del servizio
-
-Leggere quanto si trova su `....../Progetti/informatica/_SISTEMA/moodle/`
-
-Andare su http://elearning.papernet.provincia.mc.it:8080/
-
-
-
-
-
-
-
-
-Installazione di docker come mostrato su `......./Progetti/informatica/_SISTEMA/docker/howto/INSTALL.md`
-
-#### Creazione del progetto moodle 
-
-Leggere quanto si trova su `....../Progetti/informatica/_SISTEMA/docker/progetti-compose/moodle/`
-
-
-
-
-```bash 
-sudo -s
-mkdir -p /DATA/MainDataset/Docker/
-cd /DATA/MainDataset/Docker/
-
-git clone --depth 1 --recurse-submodules --shallow-submodules massimo@brigitta:/data/unsafe/mycloud/pCloud/Offline/myarchivio/Progetti/informatica/_SISTEMA/docker/compose/progetti-compose/moodle/
-
-git clone --depth 1 --recurse-submodules --shallow-submodules massimo@brigitta:/data/unsafe/mycloud/pCloud/Offline/myarchivio/Progetti/informatica/_SISTEMA/docker/compose/tools/
-
-# Creazione dei link simbolici ai tool all'interno della dir bows
-cd moodle ; ln -fs ../tools/*.sh .
-```
-
-Avvio di moodle
-```bash
-sudo -s
-cd /DATA/MainDataset/Docker/moodle
-docker compose up -d
-```
-
-Test del servizio
-
-Leggere quanto si trova su `....../Progetti/informatica/_SISTEMA/moodle/`
-
-Andare su http://elearning.papernet.provincia.mc.it:8080/
-
 ------------------------------------
 
 
 ## Configurazione piattaforma moodle
 
 ### Primo accesso
-Una volta avviato il progetto docker compose di moodle la piattaforma è operativa e disponibile all'indirizzo configurato (es. elearning)
+Una volta avviato il progetto docker compose di moodle la piattaforma è operativa e disponibile all'indirizzo configurato sulla porta 8080 (es. http://elearning:8080)
 
 A questo si può accedere alla webgui utilizzando le credenziali di default dell'utente di amministrazione:
 - username: `user`
