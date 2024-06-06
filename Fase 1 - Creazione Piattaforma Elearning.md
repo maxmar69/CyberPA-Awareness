@@ -31,6 +31,10 @@
 
 <!-- /code_chunk_output -->
 
+## Info {ignore}
+Autore: massimo.marconi@gmail.com
+Data: 1/5/2024
+
 
 ## Premessa
 
