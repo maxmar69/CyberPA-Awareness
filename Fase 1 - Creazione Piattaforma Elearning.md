@@ -31,7 +31,7 @@
 
 <!-- /code_chunk_output -->
 
-## Info {ignore}
+## Info2 {ignore}
 Autore: massimo.marconi@gmail.com
 Data: 1/5/2024
 
