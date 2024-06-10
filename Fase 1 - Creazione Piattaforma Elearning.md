@@ -1,45 +1,44 @@
 # CREAZIONE PIATTAFORMA ELEARNING
 
 
-<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+<!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=4 orderedList=false} -->
 
 <!-- code_chunk_output -->
 
-- [CREAZIONE PIATTAFORMA ELEARNING](#creazione-piattaforma-elearning)
-  - [Premessa](#premessa)
-  - [Installazione](#installazione)
-    - [Predisposizione del sistema operativo](#predisposizione-del-sistema-operativo)
-    - [Configurazione di rete](#configurazione-di-rete)
-    - [Scaricamento del progetto CyberPA-Awareness](#scaricamento-del-progetto-cyberpa-awareness)
-    - [Aggiornamemento del sistema operativo](#aggiornamemento-del-sistema-operativo)
-    - [Installazione dei tool accessori](#installazione-dei-tool-accessori)
-    - [Integrazione con il dominio (opzionale)](#integrazione-con-il-dominio-opzionale)
-    - [Attivazione piattaforma moodle](#attivazione-piattaforma-moodle)
-      - [Installazione docker compose](#installazione-docker-compose)
-      - [Avvio del progetto moodle](#avvio-del-progetto-moodle)
-  - [Configurazione piattaforma moodle](#configurazione-piattaforma-moodle)
-    - [Primo accesso](#primo-accesso)
-    - [Integrazione LDAP (opzionale)](#integrazione-ldap-opzionale)
-      - [Configurazione nel domain controller (DC)](#configurazione-nel-domain-controller-dc)
-        - [Creazione utente moodle](#creazione-utente-moodle)
-        - [Ottimizzazione contenuti Active Directroy (opzionale)](#ottimizzazione-contenuti-active-directroy-opzionale)
-      - [Configurazione nella piattaforma moodle](#configurazione-nella-piattaforma-moodle)
-    - [Configurazione utenti di amministrazione](#configurazione-utenti-di-amministrazione)
-    - [Impostazione dell'Italiano come lingua di default](#impostazione-dellitaliano-come-lingua-di-default)
-    - [Impostazione della schermata principale](#impostazione-della-schermata-principale)
-    - [Togliere dalla schermata di login il link "Hai dimenticato la password?"](#togliere-dalla-schermata-di-login-il-link-hai-dimenticato-la-password)
+- [Info](#info)
+- [Premessa](#premessa)
+- [Installazione](#installazione)
+  - [Predisposizione del sistema operativo](#predisposizione-del-sistema-operativo)
+  - [Configurazione di rete](#configurazione-di-rete)
+  - [Scaricamento del progetto CyberPA-Awareness](#scaricamento-del-progetto-cyberpa-awareness)
+  - [Aggiornamemento del sistema operativo](#aggiornamemento-del-sistema-operativo)
+  - [Installazione dei tool accessori](#installazione-dei-tool-accessori)
+  - [Integrazione con il dominio (opzionale)](#integrazione-con-il-dominio-opzionale)
+  - [Attivazione piattaforma moodle](#attivazione-piattaforma-moodle)
+    - [Installazione docker compose](#installazione-docker-compose)
+    - [Avvio del progetto moodle](#avvio-del-progetto-moodle)
+- [Configurazione piattaforma moodle](#configurazione-piattaforma-moodle)
+  - [Primo accesso](#primo-accesso)
+  - [Integrazione LDAP (opzionale)](#integrazione-ldap-opzionale)
+    - [Configurazione nel domain controller (DC)](#configurazione-nel-domain-controller-dc)
+    - [Configurazione nella piattaforma moodle](#configurazione-nella-piattaforma-moodle)
+  - [Configurazione utenti di amministrazione](#configurazione-utenti-di-amministrazione)
+  - [Impostazione dell'Italiano come lingua di default](#impostazione-dellitaliano-come-lingua-di-default)
+  - [Impostazione della schermata principale](#impostazione-della-schermata-principale)
+  - [Eliminazione dalla schermata di login del link "Hai dimenticato la password?" (opzionale)](#eliminazione-dalla-schermata-di-login-del-link-hai-dimenticato-la-password-opzionale)
 
 <!-- /code_chunk_output -->
 
-## Info2 {ignore}
-Autore: massimo.marconi@gmail.com
-Data: 1/5/2024
+## Info 
+- Autore: massimo.marconi@gmail.com
+- Data: 1/5/2024
 
+---------------------------------
 
 ## Premessa
 
-Seguendo queste semplici istruzioni è possibile installare e configurare da zero una piafforma di elearning.
-L'installazione non richiede skill avanzate e può essere affrontata da coloro che sono in grado di installare un sistema operativo.
+Seguendo queste istruzioni è possibile installare e configurare da zero una piafforma di elearning basata sul software moodle.
+L'installazione non richiede conoscenze specifiche di moodle e può essere affrontata da coloro che sono in grado di installare un sistema operativo.
 
 Per raggiungere lo scopo avremo bisogno di:
 - Un macchina dove installare linux
@@ -306,7 +305,7 @@ Andare quindi nel menu Site administration/Users/Permissions/Site administrators
   - Site home summary: 
     Scrivere il teso da mostrare nella home page. 
 
-### Togliere dalla schermata di login il link "Hai dimenticato la password?"
+### Eliminazione dalla schermata di login del link "Hai dimenticato la password?" (opzionale)
 - Vedere quale tema è utilizzato 
 - Andare su site administration/Appearence/Themes/*nome del tema corrente* quindi cliccare su *Advanced settings* ed inserire il seguente testo nella sezione *Raw SCSS*
 ```css 
